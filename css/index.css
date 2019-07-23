@@ -56,7 +56,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6{
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -66,9 +66,35 @@ p {
     line-height: 1.4;
 }
 
+.logo{
+    position: relative;
+    top: 49px;
+}
+
+header{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+header nav{
+    margin-left: 200px;
+}
+
+header nav a{
+    color: black;
+    text-decoration: none;
+    margin-right: 45px;
+    font-size: 1.2em;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.first-img{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .top-content {
@@ -77,6 +103,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 30px;
 }
 
 .top-content .text-container {
@@ -112,6 +139,50 @@ p {
     justify-content: center;
 }
 
+.boxes .box:nth-child(1){
+    background-color: red;
+}
+
+.boxes .box:nth-child(2){
+    background-color: blue;
+}
+
+.boxes .box:nth-child(3){
+    background-color: green;
+}
+
+.boxes .box:nth-child(4){
+    background-color: purple;
+}
+
+.boxes .box:nth-child(5){
+    background-color: red;
+}
+
+.boxes .box:nth-child(6){
+    background-color: coral;
+}
+
+.boxes .box:nth-child(7){
+    background-color: pink;
+}
+
+.boxes .box:nth-child(8){
+    background-color: grey;
+}
+
+.boxes .box:nth-child(9){
+    background-color: brown;
+}
+
+.boxes .box:nth-child(1){
+    background-color: red;
+}
+
+.boxes .box:nth-child(10){
+    background-color: orange;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +214,60 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/*About page CSS*/
+
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.About-img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container-about-page{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-section{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: grey 2.5px dotted;
+}
+
+.flex{
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.flex div{
+  max-height: 300px;
+  max-width: 400px;
+  margin-bottom: 100px;
+  margin-top: 20;
+}
+
+button{
+    height: 30px;
+    width: 120px;
+    border: 2px solid black;
+    background: white;
+    border-radius: 4%;
+    margin-top: 20px;
+}
+
+.Work{
+    border-top: 2px grey dotted;
+    margin-top: 25px;
+    padding-top: 20px;
+    margin-bottom:30px;
+}
+
+.Work h6{
+    margin-bottom: 15px;
 }
